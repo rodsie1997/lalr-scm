@@ -61,10 +61,10 @@ The `left:` directive is used to specify a set of left-associative operators of 
 
 The following options are available.
 
-   * `(output: _name_ filename)` - copies the parser to the given file. The parser is given the name _name_. 
-   * `(out-tables: _filename_)` - outputs the parsing tables in filename in a more readable format.
-   * `(expect: _n_)` - don't warn about conflicts if there are _n_ or less conflicts.
-   * `(driver: _glr_)` - generates a GLR parser instead of a regular LALR parser.
+   * `(output: name filename)` - copies the parser to the given file. The parser is given the name _name_. 
+   * `(out-tables: filename)` - outputs the parsing tables in filename in a more readable format.
+   * `(expect: n)` - don't warn about conflicts if there are _n_ or less conflicts.
+   * `(driver: glr)` - generates a GLR parser instead of a regular LALR parser.
 
 
 == Error recovery ==
