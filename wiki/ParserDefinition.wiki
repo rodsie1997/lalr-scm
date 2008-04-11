@@ -2,7 +2,7 @@
 
 = Loading the generator =
 
-The file `lalr.scm` declares a macro called lalr-parser:
+The file `lalr.scm` declares a macro called `lalr-parser`:
 
 {{{
    (lalr-parser [options] tokens rules ...)
