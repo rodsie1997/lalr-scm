@@ -2,9 +2,11 @@
 
 = New Features =
 
-The latest release is: *2.3.0*.
+Version *2.4.0*
 
-The new features are:
+  * Tokens are now either symbols or records created by `make-lexical-token`.
+
+Vesrion *2.3.0*
 
     * It is now packaged as a Snowball for the Scheme Now! framework for greater portability.
     * An experimental GLR driver.
