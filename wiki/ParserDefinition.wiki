@@ -11,8 +11,8 @@ The `lalr` Snow package declares a macro called `lalr-parser`:
 To use this macro, you must first _require_ the package in your own program or package. Here is an example, taken from `calc.scm`, a small calculator written using `lalr-scm`:
 
 {{{
-(package* calc/v1.1.0
-          (require: lalr/v2.4.0))
+   (package* calc/v1.1.0
+      (require: lalr/v2.4.0))
 }}}
 
 This macro, when given appropriate arguments, generates an LALR(1) syntax analyzer. The macro accepts at least two arguments. The first is a list of symbols which represent the terminal symbols of the grammar. The remaining arguments are the grammar production rules. See ParserSyntax for further details.
