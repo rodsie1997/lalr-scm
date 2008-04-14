@@ -1,0 +1,28 @@
+#summary Index of symbols
+
+= Symbol Index =
+
+== D ==
+  * `driver:` option. See ParserSyntax.
+
+== E ==
+  * `*eoi*` token. See ParserDefinition.
+  * `error` productions. See ParserSyntax. 
+  * `expect:` option. See ParserSyntax. 
+
+== L ==
+  * `lalr-parser` macro. See ParserDefinition. 
+  * `left:` assiociativity directive. See ParserSyntax. 
+
+== N ==
+  * `nonassoc:` assiociativity directive. See ParserSyntax. 
+
+== O ==
+  * `out-tables:` option.  See ParserSyntax.
+  * `output:` option. See ParserSyntax. 
+
+== P ==
+  * `prec:` associativity directive. See ParserSyntax.
+
+== R ==
+  * `right:` assiociativity directive. See ParserSyntax.
