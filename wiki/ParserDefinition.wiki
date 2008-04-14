@@ -24,7 +24,7 @@ The lexical analyzer is zero-argument function (a thunk) invoked each time the p
 }}}
 
 
-The record has three fields: `category`, which must be a symbol, a source location object `source`, and a semantic value associated with the token. For example, a string token would have a category set to `'STRING` while its semantic value is set to the string value `"hello"`.
+The record has three fields: `category`, which must be a symbol, a source location object `source`, and a semantic value associated with the token. For example, a string token would have a category set to `'STRING` while its semantic value is set to the string value `"hello"`. The field accessors are: `lexical-token-category`, `lexical-token-source`, and `lexical-token-value`.
 
 The source location object is not used by the parser itself, but is usually a record constructed by the function `make-source-location`:
 
@@ -32,7 +32,9 @@ The source location object is not used by the parser itself, but is usually a re
    (make-source-location input line colum offset length)
 }}}
 
-The `input` argument is an object describing the source input (the name of the input file, for example), while the other arguments give respectively the line number, the column number, the offset (in character) from the beginning of the file, and the length of the token.
+The `input` argument is an object describing the source input (the name of the input file, for example), while the other arguments give respectively the line number, the column number, the offset (in character) from the beginning of the file, and the length of the token. The field accessors are: `source-location-input`, `source-location-line`, `source-location-column`, `source-location-offset`, and `source-location-length`.
+
+*Note*: It is the responbility of the lexical analyzer to provider the source location information to the parser. 
 
 Once the end of file is encountered, the lexical analyzer must always return the symbol `'*eoi*` each time it is invoked.
 
