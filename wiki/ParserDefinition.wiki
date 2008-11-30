@@ -47,4 +47,4 @@ The `input` argument is an object describing the source input (the name of the i
 
 == The error procedure ==
 
-The error procedure must be a function that accepts at least two parameters, the first of which is an error message (a string), while the second, if present, is the lexical token that caused the error.
+The error procedure must be a function that accepts at least one parameter, the first of which is an error message (a string), while the second, if present, is the lexical token that caused the error.
