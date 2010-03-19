@@ -2,11 +2,15 @@
 
 = New Features =
 
+Version *2.4.1*
+
+  * Not package as a Snowball anymore.
+
 Version *2.4.0*
 
   * Tokens are now either symbols or records created by `make-lexical-token`.
 
-Vesrion *2.3.0*
+Version *2.3.0*
 
     * It is now packaged as a Snowball for the Scheme Now! framework for greater portability.
     * An experimental GLR driver.
