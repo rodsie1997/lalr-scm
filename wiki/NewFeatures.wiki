@@ -4,7 +4,7 @@
 
 Version *2.4.1*
 
-  * Not package as a Snowball anymore.
+  * Not packaged as a Snowball anymore.
 
 Version *2.4.0*
 
