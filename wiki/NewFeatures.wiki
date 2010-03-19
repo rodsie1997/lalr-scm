@@ -4,6 +4,7 @@
 
 Version *2.4.1*
 
+  * A comprehensive test suite has been added, thanks to [http://code.google.com/u/mcr.mgg mcr.mgg]. 
   * Not packaged as a Snowball anymore.
 
 Version *2.4.0*
