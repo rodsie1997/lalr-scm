@@ -9,3 +9,4 @@ I would like to thank the following people for their contributions to this softw
     * Felix L. Winkelmann for the port to Chicken.
     * Erick Gallesio for the port to STklos.
     * Florian Loitsch for a few bug reports.
+    * [http://code.google.com/u/mrc.mgg mrc.mgg] for a great test suite
